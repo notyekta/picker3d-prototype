@@ -429,16 +429,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+  anim: {fileID: 0}
   ground: {fileID: 0}
-  elevationPlatform: {fileID: 7504046035308605684}
+  basketNumber: 2
   collectedBallInBasket: 0
   requiredBallText: {fileID: 3554045885456778644}
-  basketNumber: 2
-  platform: {fileID: 0}
-  toElevate: {fileID: 2736071577178717412}
   isCompleted: 0
-  anim: {fileID: 0}
-  checkPoint: {fileID: 1963864632820662439}
 --- !u!1 &6520382813857104282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1038,11 @@ PrefabInstance:
     - target: {fileID: 1658379108001125740, guid: 25fcbdcad4ee8314b84d3575d8607c0c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341173054915828424, guid: 25fcbdcad4ee8314b84d3575d8607c0c,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8046131949667455222, guid: 25fcbdcad4ee8314b84d3575d8607c0c,

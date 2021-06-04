@@ -7,25 +7,19 @@ using System;
 public class Basket : MonoBehaviour
 {
     public GameManager gameManager;
+    public Animator anim;
+
     public GroundPlatform ground; //Ground that Basket connected 
+    public int basketNumber; //Basket ID
 
-    public GameObject elevationPlatform;
-
-    public int collectedBallInBasket;
+   
+    
+   public int collectedBallInBasket;
     public Text requiredBallText;
-
-    //
-    public int basketNumber;
-
-
-    public Platform platform;
-    public Transform toElevate;
 
     public bool isCompleted;
 
-    public Animator anim;
 
-    public GameObject checkPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -70,9 +64,4 @@ public class Basket : MonoBehaviour
         }
     }
 
-
-    public void ElevateThePlatform()
-    {
-        //elevationPlatform.transform.position.y = Mathf.Clamp(elevationPlatform.transform.position.y, elevationPoint) 
-    }
 }

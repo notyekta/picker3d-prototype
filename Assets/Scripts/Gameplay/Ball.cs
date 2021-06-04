@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour
     public void Push()
     {
         rb.AddForce(-10, 0, 0, ForceMode.VelocityChange);
-        Debug.Log("ForceApplied");
+        //Debug.Log("ForceApplied");
     }
   
 

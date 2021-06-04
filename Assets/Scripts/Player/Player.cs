@@ -83,23 +83,7 @@ public class Player : MonoBehaviour
         }
         transform.Translate(-Time.deltaTime * _forwardSpeed, 0, 0);
     }
-    #region OnTrigger
-    public void OnTriggerEnter(Collider other)
-    {
-      
 
-      
-
-
-
-    }
-
-    public void OnTriggerExit(Collider other)
-    {
-      
-
-    }
-#endregion
 
     public void PushTheBalls()
     {
