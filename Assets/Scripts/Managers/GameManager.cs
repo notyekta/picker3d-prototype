@@ -5,16 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public bool gameStarted;
-
-    public int levelNumber;
-
-    public int checkPointNumber;
-
-    public int totalBallAmount;
-    public int requiredBallAmount;
-
-
     public GameObject previousPlatform;
     public GameObject currentPlatform;
 
